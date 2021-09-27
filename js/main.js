@@ -1,6 +1,6 @@
 // Вычисляет целое число//
 
-let getRandomIntNumber = function (min, max) {
+const getRandomIntNumber = function (min, max) {
   if (min >= max || min < 0) {
     throw new Error ('Неверный формат числа');
   }
@@ -11,7 +11,7 @@ let getRandomIntNumber = function (min, max) {
 
 // Вычисляет дробное число//
 
-let getRandomNumber = function (min, max, num) {
+const getRandomNumber = function (min, max, num) {
   if (min >= max || min < 0) {
     throw new Error ('Неверный формат числа');
   }
